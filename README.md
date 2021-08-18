@@ -1,1 +1,1 @@
-# 3wa-bananastore
+# Humana Project
