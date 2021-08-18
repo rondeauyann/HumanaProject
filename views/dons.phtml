@@ -1,0 +1,26 @@
+<?php include 'header.phtml'; ?>
+<div id="dons">
+    <div class="flex">
+        <div class="tipee">
+            <h2>Vous pouvez nous soutenir avec une donation sur le Tipee</h2>
+            <a href=""><img src="images/tip.png" alt=""></a>
+        </div>
+
+        <div class="formDons">
+            <form action="dons.php" method="post" role="form" id="contact_form" class="contact-form">
+                <ul class="row">
+                    <li>
+                        <label>
+                            <h2>Entrez le code reçu après la donation mensuelle</h2><br>
+                            <input type="password" class="form-control"  name="mot_de_passe" placeholder="MOT DE PASSE" id="pass" />
+                            
+                        </label>
+                    </li>
+                    <li>
+                        <button type="submit" id="btn_submit" value="submit" onClick="proceed();"><span>Validez</span></button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+<?php include '../views/nous_rejoindre.phtml'; ?>

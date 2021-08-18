@@ -1,0 +1,20 @@
+<?php include 'header.phtml'; ?>
+
+<main id="contact">
+
+	<div class="containerContact">
+		<form class="contact-box" method="post">
+
+			<?php include 'errors.php'; ?>
+
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name" value="<?php if(isset($_POST['name'])) { echo $_POST['name']; } ?>">
+				<input type="text" class="field" placeholder="Your Email" value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>">
+				<textarea placeholder="Message" class="field"></textarea>
+				<input type="submit" class="btnContact submit" value="SEND MESSAGE">
+			</div>
+		</div>
+	</div>	
+</main>
